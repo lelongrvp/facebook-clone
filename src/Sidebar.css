@@ -1,0 +1,35 @@
+.sidebar{
+    width: 265px;
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 10px;
+    background-color: #fff;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+button > .MuiSvgIcon-root{
+    background: #efefef;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+button > h4{
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+button:hover{
+    border-radius: 20px;
+    background-color: lightgray;
+}
